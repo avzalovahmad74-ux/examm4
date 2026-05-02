@@ -154,7 +154,7 @@
             <button class="lg:w-[357px] w-[281px] h-[54px] bg-[#00578A] text-[white] font-bold">Все врачи</button>
         </div>
     </section>
-    <section class="max-w-[1300px] mt-[0px] mr-[auto] mb-[0px] ml-[auto]">
+    <section class="max-w-[1300px] m-auto mt-[0px] mr-[auto] mb-[0px] ml-[auto]">
         <div class="flex flex-col lg:flex-row gap-[40px] items-start pt-[60px] pb-[60px]">
             <div class="w-full lg:pl-[0] pl-[20px]">
                 <h4 class="text-[20px] text-[#C084B6] font-[400] mb-[15px]">Обратите внимание</h4>
@@ -207,6 +207,47 @@
                 </div>
             </div>
 
+        </div>
+    </section>
+    <section
+        class="flex flex-col lg:flex-row p-[30px] lg:p-[60px] gap-[30px] max-w-[1300px] w-full lg:w-[1312px] h-auto lg:h-[425px] bg-[linear-gradient(275.52deg,_#2DBDC4_0%,_#7D8DD0_99.44%)] rounded-2xl m-auto">
+        <div class="flex justify-between flex-col gap-[20px] lg:gap-0">
+            <h1 class="text-[32px] lg:text-[48px] text-white font-bold  lg:text-left">Записаться <br class="lg:hidden"> на приём
+            </h1>
+            <div class="gap-[20px] flex flex-col lg:flex-row">
+                <p class="text-[18px] lg:hidden text-left lg:text-[20px] text-white text-center lg:text-left">
+                Оставьте заявку и мы свяжемся <br class="hidden lg:block"> с вами в ближайшее время
+            </p>
+                <nav class="p-[23px] text-[20px] lg:text-[16px] font-semibold bg-transparent rounded-[5px] w-full lg:w-[360px] h-[70px] lg:bg-white">
+                    Выберете направление
+                </nav>
+                <input type="text"
+                    class="w-full lg:block hidden lg:w-[360px] h-[70px] bg-[white] p-[25px] rounded-[5px] placeholder:text-[#141414]"
+                    placeholder="Ваше имя">
+            </div>
+            <div class="gap-[20px] flex flex-col lg:flex-row">
+                <nav class="p-[23px] text-[20px] lg:text-[16px] font-semibold rounded-[5px] w-full lg:w-[360px] h-[70px] lg:bg-white">
+                    Выберете врача
+                </nav>
+                <input type="text"
+                    class="w-full lg:w-[360px] lg:block hidden h-[70px] bg-[white] p-[25px] rounded-[5px] placeholder:text-[#141414]"
+                    placeholder="Ваш телефон">
+            </div>
+        </div>
+        <div class="flex flex-col justify-between gap-[20px] lg:gap-0">
+            <p class="text-[18px] hidden lg:block lg:text-[20px] text-white text-center lg:text-left">
+                Оставьте заявку и мы свяжемся <br class="hidden lg:block"> с вами в ближайшее время
+            </p>
+            <button class="w-full lg:mt-[0] mt-[140px] lg:w-[360px] h-[70px] bg-[#00C6BF] rounded-[6px] text-white font-semibold">
+                Оставить заявку
+            </button>
+            <div class="flex flex-row gap-[10px]">
+                <input type="checkbox" class="w-[20px] h-[20px] mt-[5px]" name="" id="">
+                <p class="text-white lg:block hidden text-[14px] lg:text-[16px]">
+                    Отправляя заявку, вы соглашаетесь на нашу <br>
+                    <span class="underline cursor-pointer">политику конфиденциальности</span>
+                </p>
+            </div>
         </div>
     </section>
 </body>
